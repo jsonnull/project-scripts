@@ -8,7 +8,7 @@ module.exports = function(root, appName) {
   var appPackage = require(path.join(root, 'package.json'))
   var templatePackage = require(path.join(selfPath, 'config', 'package.json'))
 
-  var packageJson = Object.assign({}, ownPackage, appPackage)
+  var packageJson = Object.assign({}, templatePackage, appPackage)
 
   fs.writeFileSync(
     path.join(root, 'package.json'),
