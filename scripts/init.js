@@ -23,5 +23,5 @@ module.exports = function(root, appName) {
       console.error('npm install failed.')
       return;
     }
-  }
+  })
 }
