@@ -15,7 +15,7 @@ module.exports = function(root, appName) {
     JSON.stringify(packageJson, null, 2)
   )
 
-  fs.copySync(path.join(ownPath, 'template'), root);
+  fs.copySync(path.join(selfPath, 'template'), root);
 
   var proc = spawn('npm', ['install'], {stdio: 'inherit'})
   proc.on('close', function (code) {
