@@ -1,0 +1,27 @@
+{
+  "name": "jsonnull-create-project",
+  "version": "0.0.1",
+  "description": "CLI tool to create new projects using my typical configuration",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsonnull/project-scripts.git"
+  },
+  "author": "Jason Nall <jsonnull@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsonnull/project-scripts/issues"
+  },
+  "homepage": "https://github.com/jsonnull/project-scripts#readme",
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "create-project": "./index.js"
+  },
+  "dependencies": {
+    "cross-spawn": "^4.0.0"
+  }
+}
