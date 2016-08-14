@@ -1,5 +1,5 @@
 var path = require('path') 
-var fs = require('fs')
+var fs = require('fs-extra')
 var spawn = require('cross-spawn')
 
 module.exports = function(root, appName) {

@@ -25,6 +25,7 @@
     "project-scripts": "./bin/project-scripts.js"
   },
   "dependencies": {
-    "cross-spawn": "^4.0.0"
+    "cross-spawn": "^4.0.0",
+    "fs-extra": "^0.30.0"
   }
 }
