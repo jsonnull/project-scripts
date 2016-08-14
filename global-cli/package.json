@@ -22,6 +22,7 @@
     "create-project": "./index.js"
   },
   "dependencies": {
-    "cross-spawn": "^4.0.0"
+    "cross-spawn": "^4.0.0",
+    "path-exists": "^3.0.0"
   }
 }
