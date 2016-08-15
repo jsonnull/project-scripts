@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "ava test",
     "bundle": "webpack"
   },
   "eslintConfig": {
@@ -11,6 +11,7 @@
     "extends": "standard"
   },
   "dependencies": {
+    "ava": "^0.16.0",
     "babel-core": "^6.13.2",
     "babel-eslint": "^6.1.2",
     "babel-loader": "^6.2.4",
