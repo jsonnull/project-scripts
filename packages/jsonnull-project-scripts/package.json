@@ -1,0 +1,34 @@
+{
+  "name": "jsonnull-project-scripts",
+  "version": "0.1.1",
+  "description": "Configuration files I share across projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsonnull/project-scripts.git"
+  },
+  "author": "Jason Nall <jsonnull@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsonnull/project-scripts/issues"
+  },
+  "homepage": "https://github.com/jsonnull/project-scripts#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "files": [
+    "bin",
+    "template",
+    "scripts",
+    "package.template.json"
+  ],
+  "bin": {
+    "project-scripts": "./bin/project-scripts.js"
+  },
+  "dependencies": {
+    "cross-spawn": "^4.0.0",
+    "fs-extra": "^0.30.0"
+  },
+  "devDependencies": {
+    "lerna": "2.0.0-beta.29"
+  }
+}

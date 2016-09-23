@@ -2,9 +2,6 @@
   "name": "jsonnull-create-project",
   "version": "0.0.3",
   "description": "CLI tool to create new projects using my typical configuration",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jsonnull/project-scripts.git"
@@ -15,6 +12,9 @@
     "url": "https://github.com/jsonnull/project-scripts/issues"
   },
   "homepage": "https://github.com/jsonnull/project-scripts#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
   "files": [
     "index.js"
   ],
