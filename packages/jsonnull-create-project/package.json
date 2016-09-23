@@ -1,6 +1,6 @@
 {
   "name": "jsonnull-create-project",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "CLI tool to create new projects using my typical configuration",
   "repository": {
     "type": "git",
